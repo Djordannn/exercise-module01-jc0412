@@ -14,29 +14,20 @@ triangleNum(5)
 // INPUT
 // Membuat function maxValue untuk mencari nilai terbesar dari nilai yang diinputkan
 function maxValue([a, b, c, d]) {
+    
+//PROSES
 // Looping nilai maxValue
     for(let i: number = 0; i < 4; i++) {
 // Menghitung nilai terbesar menggunakan fungsi Math.max()
         let value = Math.max(a, b, c, d);
+
+// OUTPUT
 // Mengembalikkan nilai value
         return value;
     }
 }
 // Print function maxValue
 console.log(maxValue([10, 55, 79, 32]));
-
-let arrInput = [10, 55, 79, 32];
-
-function nilaiTerbesar([a, b, c, d]) {
-    for(let i = 0; i < arrInput.length; i++) {
-        console.log(i);
-        
-        let outputNilai = arrInput[i];
-        console.log(outputNilai);
-        
-    }
-}
-
 
 
 // Exercise 01
