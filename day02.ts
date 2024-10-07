@@ -55,3 +55,17 @@ for (let i = 2; i <= fiboNum; i++) {
 // for(let i = 1; 1 <= n5; i++) {
 //     console.log(i);
 // }
+
+let inputCar: string = "hELLo world";
+let outputCar: string = "";
+for(let i: number = 0; i < inputCar.length; i++) {
+    let letterCar = inputCar[i];
+    console.log(letterCar);
+    if(letterCar === letterCar.toUpperCase()) {
+        outputCar += letterCar.toLowerCase();
+    } else if(letterCar === letterCar.toLowerCase()) {
+        outputCar += letterCar.toUpperCase()
+    } 
+}
+
+console.log(outputCar);
